@@ -1,0 +1,23 @@
+.mm93 {
+    width: 500px;
+}
+header { width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+main { width: 70%;
+
+    
+    margin: auto;
+}
+.Principal { text-align: center;
+}
+.moto {
+   width: 500px;
+   display: flex;
+   float: right;
+
+}
