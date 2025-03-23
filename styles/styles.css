@@ -1,17 +1,18 @@
 .mm93 {
     width: 500px;
-}
-header { width: 70%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-bottom: 10px;
-    
-}
-main { width: 70%;
+    padding: 50px;
 
     
-    margin: auto;
+}
+header {
+    background: rgb(75,36,36);
+background: linear-gradient(90deg, rgba(75,36,36,1) 70%, rgba(134,1,1,1) 100%);
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+main { width: 80%;
+ margin: auto;
 }
 .Principal { text-align: center;
 }
@@ -19,5 +20,12 @@ main { width: 70%;
    width: 500px;
    display: flex;
    float: right;
+   margin-left: 50px;
 
+}
+
+body{
+    margin: 0;
+    background: rgb(187,187,187);
+background: linear-gradient(90deg, rgba(187,187,187,1) 70%, rgba(125,118,118,1) 100%);
 }
