@@ -2,7 +2,7 @@
 
 [Figma](https://www.figma.com/design/6VU1tZeqHn5vl7hnhPZ9SQ/Marc-Marquez?node-id=0-1&p=f&t=qzgYtyRAWVWGrqxX-0)
 
-Esta pagina se basa en productos de mi piloto de motoGP favorito
+Esta pagina se basa en productos de mi piloto de motoGP favorito.
 
 Descubre la pasión y el espíritu del motociclismo con nuestra exclusiva colección de productos oficiales de Marc Márquez. Desde camisetas y gorras hasta accesorios únicos, cada artículo está diseñado para capturar la esencia de la velocidad, la precisión y la dedicación que definen al legendario piloto número 93.
 
