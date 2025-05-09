@@ -1,8 +1,6 @@
 .mm93 {
     width: 500px;
-    padding: 50px;
-
-    
+    align-content: end;
 }
 header {
     background: rgb(75,36,36);
@@ -17,15 +15,80 @@ main { width: 80%;
 .Principal { text-align: center;
 }
 .moto {
-   width: 500px;
+   width: 400px;
    display: flex;
    float: right;
    margin-left: 50px;
-
 }
 
 body{
     margin: 0;
     background: rgb(187,187,187);
 background: linear-gradient(90deg, rgba(187,187,187,1) 70%, rgba(125,118,118,1) 100%);
+}
+
+.logo {
+    width: 100px;
+}
+
+.navegacion {
+    background-color: rgb(75,36,36) !important;
+}
+
+.nav-link active {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.caballito {
+    width: 300px;
+}
+
+.campeon {
+    width: 300px;
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+.cervera {
+    margin-left: 50px;
+}
+div {
+    display: flex;
+    align-items: center;
+   padding: 50px;
+}
+
+.footer {
+    background-color:black ;
+    border: solid red;
+}
+
+.social-media {
+    width: 50px;
+    padding: 5px;
+}
+
+.campeonatos {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fluid {
+   display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+
+
 }
