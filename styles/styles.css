@@ -26,6 +26,15 @@ h3 {
     margin-right: 50px;
 }
 
+.productos {
+    color: rgb(180, 41, 41);
+}
+
+.precio {
+    color: black;
+    font-weight: bold;
+}
+
 .moto {
    width: 400px;
    display: flex;
@@ -177,3 +186,12 @@ footer {
     color: white;
 }
 
+.carrusel-img {
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.carousel {
+    width: 70%;
+    margin: auto;
+}
