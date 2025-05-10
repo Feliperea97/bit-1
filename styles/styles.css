@@ -50,6 +50,10 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
+.p1 {
+    font-family: "Montserrat", sans-serif;
+}
+
 .logo {
     width: 150px;
 }
@@ -87,7 +91,7 @@ body{
     color: white;
 }
 
-div {
+.flexb {
     display: flex;
     align-items: center;
    padding: 50px;
@@ -103,6 +107,7 @@ footer {
       justify-content: space-between;
       align-items: center;
       background: linear-gradient(90deg, rgba(75,36,36,1) 70%, rgba(134,1,1,1) 100%);
+      margin-top: 50px;
 }
 
 .social-media {
