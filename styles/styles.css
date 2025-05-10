@@ -1,10 +1,10 @@
 .mm93 {
-    width: 500px;
-    align-content: end;
+    width: 400px;
+    
 }
 header {
     background: rgb(75,36,36);
-background: linear-gradient(90deg, rgba(75,36,36,1) 70%, rgba(134,1,1,1) 100%);
+    background: linear-gradient(90deg, rgba(75,36,36,1) 70%, rgba(134,1,1,1) 100%);
     display: flex;
     margin-bottom: 50px;
     
@@ -12,13 +12,23 @@ background: linear-gradient(90deg, rgba(75,36,36,1) 70%, rgba(134,1,1,1) 100%);
 main { width: 80%;
  margin: auto;
 }
-.Principal { text-align: center;
+.principal{ 
+    text-align: center;
+    color: rgb(180, 41, 41);
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
+
+h3 {
+    margin-right: 50px;
+}
+
 .moto {
    width: 400px;
    display: flex;
    float: right;
    margin-left: 50px;
+   border-radius: 50px;
 }
 
 body{
@@ -35,47 +45,49 @@ background: linear-gradient(90deg, rgba(187,187,187,1) 70%, rgba(125,118,118,1) 
     background-color: rgb(75,36,36) !important;
 }
 
-.nav-link active {
-    padding: 20px;
-}
-
-h2 {
-    text-align: center;
-}
-
 .caballito {
-    width: 300px;
+    width: 400px;
+    border-radius: 50px;
+    box-shadow: 20px 10px 20px rgb(75,36,36);
+
 }
 
 .campeon {
-    width: 300px;
-    display: flex;
-    float: right;
-    align-items: center;
+    width: 400px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    box-shadow: 20px 10px 20px rgb(75,36,36);
+
+}
+
+.campeonatos {
+    color: white;
 }
 
 .cervera {
     margin-left: 50px;
+    color: white;
 }
+
 div {
     display: flex;
     align-items: center;
    padding: 50px;
 }
 
-.footer {
-    background-color:black ;
+footer {
     border: solid red;
+     width: 100%;
+      background: var(--background-footer);
+      height: 150px;
+      padding-top: 20px;
+      display: flex;
+      float: none;
 }
 
 .social-media {
     width: 50px;
     padding: 5px;
-}
-
-.campeonatos {
-    display: flex;
-    align-items: center;
 }
 
 .carousel-item {
@@ -90,5 +102,65 @@ div {
     max-width: 100%;
     height: auto;
 
+}
+
+.monotraje {
+    width: 300px;
+    margin-top: 50px;
+    margin-right: 100px;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+.monotraje:hover {
+  transform: scale(1.1);
+}
+
+
+.mono {
+    display: flex;
+    align-items: center;
+    padding: 50px;
 
 }
+
+.ocho {
+     display: flex;
+     flex-direction: row-reverse;
+    align-items: center;
+    padding: 50px;
+}
+
+.boots {
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 100px;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.boots:hover {
+    transform: scale(1.1);
+}
+
+.botines {
+ display: flex;
+ flex-direction: row-reverse;
+ align-items: center;
+ padding: 50px;
+}
+btn btn-dark {
+    display: block;
+  margin: 0 auto;
+}
+
+.fondo {
+ background-image: url(../assets/marc-fondo.jpg);
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+  background-size: cover;
+  background-blend-mode: multiply;
+
+
+}
+
