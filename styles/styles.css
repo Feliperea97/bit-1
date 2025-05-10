@@ -1,13 +1,14 @@
 .mm93 {
     width: 400px;
-    
+    margin-right: 20px;
+
 }
 header {
-    background: rgb(75,36,36);
+
     background: linear-gradient(90deg, rgba(75,36,36,1) 70%, rgba(134,1,1,1) 100%);
     display: flex;
     margin-bottom: 50px;
-    
+    justify-content: space-between;
 }
 main { width: 80%;
  margin: auto;
@@ -17,6 +18,8 @@ main { width: 80%;
     color: rgb(180, 41, 41);
     margin-top: 100px;
     margin-bottom: 50px;
+     font-family: "Bebas Neue", sans-serif;
+     padding-top: 50px;
 }
 
 h3 {
@@ -34,11 +37,17 @@ h3 {
 body{
     margin: 0;
     background: rgb(187,187,187);
-background: linear-gradient(90deg, rgba(187,187,187,1) 70%, rgba(125,118,118,1) 100%);
+    background: linear-gradient(90deg, rgba(187,187,187,1) 70%, rgba(125,118,118,1) 100%);
+    font-family: "Montserrat", sans-serif;
 }
 
 .logo {
-    width: 100px;
+    width: 150px;
+}
+
+.logo-2 {
+    width: 150px;
+    
 }
 
 .navegacion {
@@ -76,18 +85,21 @@ div {
 }
 
 footer {
-    border: solid red;
      width: 100%;
       background: var(--background-footer);
-      height: 150px;
+      height: 200px;
       padding-top: 20px;
       display: flex;
-      float: none;
+      float: none; 
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(90deg, rgba(75,36,36,1) 70%, rgba(134,1,1,1) 100%);
 }
 
 .social-media {
     width: 50px;
     padding: 5px;
+    margin-left: 50px;
 }
 
 .carousel-item {
@@ -150,17 +162,18 @@ footer {
  align-items: center;
  padding: 50px;
 }
-btn btn-dark {
-    display: block;
-  margin: 0 auto;
-}
+
 
 .fondo {
  background-image: url(../assets/marc-fondo.jpg);
   background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
   background-size: cover;
   background-blend-mode: multiply;
+  
+}
 
-
+.redes {
+    text-decoration: none;
+    color: white;
 }
 
