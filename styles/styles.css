@@ -1,8 +1,8 @@
 .mm93 {
     width: 400px;
     margin-right: 20px;
-
 }
+
 header {
     grid-area: header;
     background: linear-gradient(90deg, rgba(75,36,36,1) 70%, rgba(134,1,1,1) 100%);
@@ -83,7 +83,6 @@ body{
     width: 400px;
     border-radius: 50px;
     box-shadow: 20px 10px 20px rgb(75,36,36);
-
 }
 
 .campeon {
@@ -159,7 +158,6 @@ footer {
     display: flex;
     align-items: center;
     padding: 50px;
-
 }
 
 .ocho {
@@ -240,4 +238,210 @@ input {
 
 .datos {
     color: rgb(180, 41, 41);
+}
+
+@media screen and (max-width: 992px) {
+   .moto {
+        margin-left: 30px;
+        margin-bottom: 20px;
+   }
+
+    .fondo {
+        background-position: center;
+    }
+
+    .campeon, .caballito {
+        width: 300px;
+    }
+
+    .campeon {
+        margin-left: 20px;
+    }
+
+    .boots, .monotraje {
+        width: 200px;
+    }
+
+    .boots {
+        margin-right: 0;
+    }
+
+    .monotraje {
+        margin-top: 0;
+    }
+
+    .carrusel-img {
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .catalogo-b {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "aside aside"
+        "footer footer"; 
+    }
+
+    .mm93 {
+        width: 300px;
+    }
+
+    .moto {
+        width: 300px;
+    }
+
+    .ocho {
+        display: block;
+    }
+
+    .caballito {
+        float: left;
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    .campeon {
+        float: right;
+        margin-bottom: 20px;
+    }
+
+    .contenedor-caballito {
+        display: block;
+    }
+
+    .mono {
+        display: block;
+    }
+
+    .monotraje {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .botines {
+        display: block;
+        padding: 0;
+    }
+
+    .boots {
+        float: right;
+        margin-bottom: 20px;
+    }
+
+    .carrusel-img {
+        margin-bottom: 120px;
+        padding: 0;
+        width: 200px;
+    }
+
+    .productos, .precio {
+        font-size: 13px;
+        margin-right: 120px;
+    }
+
+    .carousel-caption {
+        width: 100%;
+        padding: 0;
+        
+    }
+
+    .btn-danger  {
+        margin-right: 120px;
+
+    }
+
+    .datos {
+        font-size: 22px;
+    }
+
+    aside {
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .mm93 {
+        width: 170px;
+        margin-right: 20px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+     .moto {
+        width: 200px;
+        border-radius: 30px;
+    }
+
+     .caballito {
+        float: none;
+        width: 250px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-left: 140px;
+        
+    }
+    .cervera {
+        margin: 0;
+    }
+
+    .campeon {
+        float: none;
+        width: 250px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-left: 130px;
+    }
+
+    main {
+        width: 100%;
+        margin: auto;
+        grid-area: main;
+    }
+
+    .intro, .botines {
+        padding: 50px;
+    }
+
+    .principal {
+        margin-top: 0;
+    }
+
+    .social-media {
+        width: 40px;
+    }
+
+    .logo-2 {
+        width: 80px;
+    }
+
+    footer {
+        font-size: 11px;
+    }
+
+    .p1 {
+        padding: 20px;
+    }
+
+    .carrusel-img {
+        width: 150px;
+        padding: 0;
+    }
+
+    .carousel-item, .carousel-inner{
+        padding: 0;
+    }
+
+    .productos, .precio {
+        font-size: 1px;
+        margin-right: 120px;
+    }
+
 }
