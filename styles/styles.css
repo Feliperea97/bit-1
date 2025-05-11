@@ -4,14 +4,16 @@
 
 }
 header {
-
+    grid-area: header;
     background: linear-gradient(90deg, rgba(75,36,36,1) 70%, rgba(134,1,1,1) 100%);
     display: flex;
     margin-bottom: 50px;
     justify-content: space-between;
 }
-main { width: 80%;
- margin: auto;
+main {
+    width: 80%;
+    margin: auto;
+    grid-area: main;
 }
 .principal{ 
     text-align: center;
@@ -28,6 +30,7 @@ h3 {
 
 .productos {
     color: rgb(180, 41, 41);
+
 }
 
 .precio {
@@ -48,6 +51,15 @@ body{
     background: rgb(187,187,187);
     background: linear-gradient(90deg, rgba(187,187,187,1) 70%, rgba(125,118,118,1) 100%);
     font-family: "Montserrat", sans-serif;
+}
+
+.catalogo-b {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer"; 
 }
 
 .p1 {
@@ -91,7 +103,7 @@ body{
     color: white;
 }
 
-.flexb {
+div {
     display: flex;
     align-items: center;
    padding: 50px;
@@ -108,6 +120,7 @@ footer {
       align-items: center;
       background: linear-gradient(90deg, rgba(75,36,36,1) 70%, rgba(134,1,1,1) 100%);
       margin-top: 50px;
+      grid-area: footer;
 }
 
 .social-media {
@@ -193,10 +206,38 @@ footer {
 
 .carrusel-img {
     width: 400px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .carousel {
-    width: 70%;
+    
     margin: auto;
+}
+
+aside {
+   grid-area: aside;
+   padding-right: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.btn {
+    background-color: red;
+}
+
+.datos {
+    color: rgb(180, 41, 41);
 }
